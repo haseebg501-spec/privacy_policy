@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - EMS Admission Form Extractor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #5f6368;
+            margin-top: 20px;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for EMS Admission Form Extractor</h1>
+    <p><strong>Effective Date:</strong> June 22, 2026</p>
+
+    <p>This privacy policy describes how the <strong>EMS Admission Form Extractor</strong> Chrome Extension ("Extension") handles user data. We are committed to protecting your privacy and ensuring that your data remains secure.</p>
+
+    <h2>1. Data Collection and Usage</h2>
+    <p>The Extension extracts admission form data from the EMS PGC portal (ems.pgc.edu.pk) and writes it directly to your own connected Google Sheet.</p>
+    <ul>
+        <li><strong>Admission Form Data:</strong> The data extracted includes student details entered on the portal's forms. This data is processed locally within your browser.</li>
+        <li><strong>Google Sheets Configuration:</strong> The Extension saves your Google Sheet URL and target tab settings locally in your browser's secure storage (using <code>chrome.storage.local</code>).</li>
+    </ul>
+
+    <h2>2. Data Transmission</h2>
+    <p>The Extension transmits the extracted admission form data directly to the Google Apps Script Web App URL that <strong>you configure</strong>. 
+    <ul>
+        <li><strong>No Third-Party Transmission:</strong> We do NOT host any databases or servers. Your data is sent directly to Google Scripts and Google Sheets using secure HTTPS connections.</li>
+        <li><strong>No External Collection:</strong> The developer of this Extension does not receive, collect, or store any of your student data, Google Sheet links, or portal login credentials.</li>
+    </ul></p>
+
+    <h2>3. Permissions Used</h2>
+    <p>To perform its functions safely and effectively, the Extension requests the following browser permissions:</p>
+    <ul>
+        <li><strong>activeTab:</strong> Used to check if the current active tab is the EMS PGC portal and display the extractor interface.</li>
+        <li><strong>scripting:</strong> Used to add control buttons and checklists directly onto the active EMS admission form.</li>
+        <li><strong>storage:</strong> Used to save your connected Google Sheet URL and active targets locally on your machine.</li>
+        <li><strong>downloads:</strong> Used to download the offline CSV sheet template for easy setup.</li>
+        <li><strong>Host Permissions (ems.pgc.edu.pk and script.google.com):</strong> Used to parse page structure on EMS and communicate with Google Apps Script.</li>
+    </ul>
+
+    <h2>4. Data Retention</h2>
+    <p>Since all configuration data is stored locally in your browser's storage, it remains there until you manually disconnect the sheet or uninstall the Extension. Student data is not cached or kept inside the Extension after being successfully sent to your Google Sheet.</p>
+
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. Any changes will be updated on this page with a revised effective date.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, you can reach out to the developer:</p>
+    <ul>
+        <li><strong>Developer:</strong> Muhammad Haseeb (MIS Officer, PGC Kahna)</li>
+        <li><strong>WhatsApp Support / Contact:</strong> +92 347 1635521</li>
+    </ul>
+
+    <div class="footer">
+        © 2026 EMS Admission Form Extractor. Built for PGC MIS Officers.
+    </div>
+
+</body>
+</html>
