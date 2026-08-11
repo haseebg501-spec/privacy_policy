@@ -73,13 +73,6 @@ The Extension is provided on an "as is" and "as available" basis. The developer 
 We may update these Terms of Service from time to time. Any changes will be posted on this page with an updated "Effective Date." Continued use of the Extension after any such changes constitutes your consent to the updated terms.
 
 ## 9. Contact Information
-If you have any questions or concerns regarding these Terms of Service, please contact the developer:
-
-* **Developer:** Hafiz Haseeb
-* **Email:** [Apna Email Yahan Likhein]
-* **Website:** [https://hafizhaseeb.me](https://hafizhaseeb.me)
-
-## 9. Contact Information
 If you have any questions, concerns, or requests regarding this Privacy Policy or the Extension's data practices, please contact the developer at:
 
 * **Developer:** Hafiz Haseeb
